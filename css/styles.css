@@ -33,11 +33,14 @@ a {
 }
 
 /* Nav Section  */
+header {
+    padding: 10px 0;
+    height: 80px;
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 nav .logo {
     width: 100px;
@@ -102,8 +105,8 @@ body {
     bottom: 5%;
     transform: translateX(-50%);
     border-radius: 39% 61% 40% 60% / 62% 64% 36% 38%;
-    box-shadow: 7px 7px 26px -5px rgba(69, 250, 33, 0.884);
-    animation: blob 15s alternate infinite; 
+    box-shadow: 7px 7px 26px 2px rgba(69, 250, 33, 0.884);
+    animation: blob 35s alternate infinite; 
     transition: 3s;
 }
 .hero-right:hover .blob {
